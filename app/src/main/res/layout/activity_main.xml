@@ -81,13 +81,25 @@
                     app:layout_constraintTop_toBottomOf="@+id/box_three_text" />
 
                 <TextView
-                    android:id="@+id/textView"
-                    android:layout_width="wrap_content"
+                    android:id="@+id/label_text"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:text="TextView"
+                    android:text="How To Play"
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    app:layout_constraintBaseline_toBaselineOf="@+id/label_info"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/label_info"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Tap the Screen and Buttons"
+                    android:textSize="16sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    tools:layout_editor_absoluteY="523dp" />
+                    app:layout_constraintStart_toEndOf="@+id/label_text"
+                    app:layout_constraintTop_toBottomOf="@+id/box_two_text" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>
