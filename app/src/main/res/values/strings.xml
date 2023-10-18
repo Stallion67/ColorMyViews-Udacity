@@ -5,7 +5,7 @@
     <string name="box_three">Box Three</string>
     <string name="box_four">Box Four</string>
     <string name="box_five">Box Five</string>
-    <string name="button_yellow">YELLOW</string>
-    <string name="button_red">RED</string>
-    <string name="box_green">GREEN</string>
+    <string name="button_yellow_text">YELLOW</string>
+    <string name="button_red_text">RED</string>
+    <string name="button_green_text">GREEN</string>
 </resources>
